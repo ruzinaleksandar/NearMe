@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235BFA6E27498A3800E0EA22 /* NearMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BFA6D27498A3800E0EA22 /* NearMeVC.swift */; };
+		235BFA7027498A4B00E0EA22 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BFA6F27498A4B00E0EA22 /* AboutVC.swift */; };
+		235BFA7427498B6300E0EA22 /* Venue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BFA7227498B6300E0EA22 /* Venue+CoreDataClass.swift */; };
+		235BFA7527498B6300E0EA22 /* Venue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BFA7327498B6300E0EA22 /* Venue+CoreDataProperties.swift */; };
+		239CE62F27479F2D003861E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239CE62E27479F2D003861E8 /* AppDelegate.swift */; };
+		239CE63127479F2D003861E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239CE63027479F2D003861E8 /* SceneDelegate.swift */; };
+		239CE63327479F2D003861E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239CE63227479F2D003861E8 /* ViewController.swift */; };
+		239CE63627479F2D003861E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239CE63427479F2D003861E8 /* Main.storyboard */; };
+		239CE63927479F2D003861E8 /* NearMeTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 239CE63727479F2D003861E8 /* NearMeTask.xcdatamodeld */; };
+		239CE63B27479F2F003861E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239CE63A27479F2F003861E8 /* Assets.xcassets */; };
+		239CE63E27479F2F003861E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239CE63C27479F2F003861E8 /* LaunchScreen.storyboard */; };
+		23DFCEC3274C48A80097ACDF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23DFCEC2274C48A80097ACDF /* Settings.bundle */; };
+		23FF1EFA2749955B0047683B /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF1EF92749955B0047683B /* ApiHelper.swift */; };
+		23FF1EFC2749956F0047683B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF1EFB2749956F0047683B /* Extensions.swift */; };
+		23FF1EFE274995900047683B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF1EFD274995900047683B /* Constants.swift */; };
+		23FF1F01274995F10047683B /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF1F00274995F10047683B /* VenueCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		235BFA6D27498A3800E0EA22 /* NearMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeVC.swift; sourceTree = "<group>"; };
+		235BFA6F27498A4B00E0EA22 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010AboutVC.swift"; sourceTree = "<group>"; };
+		235BFA7227498B6300E0EA22 /* Venue+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		235BFA7327498B6300E0EA22 /* Venue+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		239CE62B27479F2D003861E8 /* NearMeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearMeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		239CE62E27479F2D003861E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		239CE63027479F2D003861E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		239CE63227479F2D003861E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		239CE63527479F2D003861E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		239CE63827479F2D003861E8 /* NearMeTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearMeTask.xcdatamodel; sourceTree = "<group>"; };
+		239CE63A27479F2F003861E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239CE63D27479F2F003861E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		239CE63F27479F2F003861E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DFCEC2274C48A80097ACDF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		23FF1EF92749955B0047683B /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		23FF1EFB2749956F0047683B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		23FF1EFD274995900047683B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		23FF1F00274995F10047683B /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239CE62827479F2D003861E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235BFA6C27498A0300E0EA22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				239CE63227479F2D003861E8 /* ViewController.swift */,
+				235BFA6D27498A3800E0EA22 /* NearMeVC.swift */,
+				235BFA6F27498A4B00E0EA22 /* AboutVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		235BFA7127498AD000E0EA22 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				239CE62E27479F2D003861E8 /* AppDelegate.swift */,
+				239CE63027479F2D003861E8 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		235BFA7627498B7300E0EA22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				235BFA7227498B6300E0EA22 /* Venue+CoreDataClass.swift */,
+				235BFA7327498B6300E0EA22 /* Venue+CoreDataProperties.swift */,
+				239CE63727479F2D003861E8 /* NearMeTask.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		239CE62227479F2D003861E8 = {
+			isa = PBXGroup;
+			children = (
+				23DFCEC2274C48A80097ACDF /* Settings.bundle */,
+				239CE62D27479F2D003861E8 /* NearMeTask */,
+				239CE62C27479F2D003861E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		239CE62C27479F2D003861E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239CE62B27479F2D003861E8 /* NearMeTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		239CE62D27479F2D003861E8 /* NearMeTask */ = {
+			isa = PBXGroup;
+			children = (
+				23FF1EFF274995D50047683B /* Views */,
+				23FF1EF8274995410047683B /* Helpers */,
+				235BFA7627498B7300E0EA22 /* Models */,
+				235BFA7127498AD000E0EA22 /* Delegates */,
+				235BFA6C27498A0300E0EA22 /* ViewControllers */,
+				239CE63427479F2D003861E8 /* Main.storyboard */,
+				239CE63A27479F2F003861E8 /* Assets.xcassets */,
+				239CE63C27479F2F003861E8 /* LaunchScreen.storyboard */,
+				239CE63F27479F2F003861E8 /* Info.plist */,
+			);
+			path = NearMeTask;
+			sourceTree = "<group>";
+		};
+		23FF1EF8274995410047683B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				23FF1EF92749955B0047683B /* ApiHelper.swift */,
+				23FF1EFB2749956F0047683B /* Extensions.swift */,
+				23FF1EFD274995900047683B /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		23FF1EFF274995D50047683B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23FF1F00274995F10047683B /* VenueCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239CE62A27479F2D003861E8 /* NearMeTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239CE64227479F2F003861E8 /* Build configuration list for PBXNativeTarget "NearMeTask" */;
+			buildPhases = (
+				239CE62727479F2D003861E8 /* Sources */,
+				239CE62827479F2D003861E8 /* Frameworks */,
+				239CE62927479F2D003861E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearMeTask;
+			productName = NearMeTask;
+			productReference = 239CE62B27479F2D003861E8 /* NearMeTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		239CE62327479F2D003861E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					239CE62A27479F2D003861E8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 239CE62627479F2D003861E8 /* Build configuration list for PBXProject "NearMeTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 239CE62227479F2D003861E8;
+			productRefGroup = 239CE62C27479F2D003861E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239CE62A27479F2D003861E8 /* NearMeTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		239CE62927479F2D003861E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DFCEC3274C48A80097ACDF /* Settings.bundle in Resources */,
+				239CE63E27479F2F003861E8 /* LaunchScreen.storyboard in Resources */,
+				239CE63B27479F2F003861E8 /* Assets.xcassets in Resources */,
+				239CE63627479F2D003861E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		239CE62727479F2D003861E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239CE63327479F2D003861E8 /* ViewController.swift in Sources */,
+				23FF1EFE274995900047683B /* Constants.swift in Sources */,
+				235BFA7027498A4B00E0EA22 /* AboutVC.swift in Sources */,
+				239CE62F27479F2D003861E8 /* AppDelegate.swift in Sources */,
+				23FF1EFA2749955B0047683B /* ApiHelper.swift in Sources */,
+				235BFA6E27498A3800E0EA22 /* NearMeVC.swift in Sources */,
+				23FF1EFC2749956F0047683B /* Extensions.swift in Sources */,
+				239CE63927479F2D003861E8 /* NearMeTask.xcdatamodeld in Sources */,
+				235BFA7427498B6300E0EA22 /* Venue+CoreDataClass.swift in Sources */,
+				23FF1F01274995F10047683B /* VenueCell.swift in Sources */,
+				239CE63127479F2D003861E8 /* SceneDelegate.swift in Sources */,
+				235BFA7527498B6300E0EA22 /* Venue+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		239CE63427479F2D003861E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				239CE63527479F2D003861E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		239CE63C27479F2F003861E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				239CE63D27479F2F003861E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		239CE64027479F2F003861E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		239CE64127479F2F003861E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		239CE64327479F2F003861E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C36CND5CVR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearMeTask/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Near Me";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This application needs your location to show you the closest Foursquare venues";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruzin.aleksandar.NearMeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		239CE64427479F2F003861E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C36CND5CVR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearMeTask/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Near Me";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This application needs your location to show you the closest Foursquare venues";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruzin.aleksandar.NearMeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		239CE62627479F2D003861E8 /* Build configuration list for PBXProject "NearMeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239CE64027479F2F003861E8 /* Debug */,
+				239CE64127479F2F003861E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239CE64227479F2F003861E8 /* Build configuration list for PBXNativeTarget "NearMeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239CE64327479F2F003861E8 /* Debug */,
+				239CE64427479F2F003861E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		239CE63727479F2D003861E8 /* NearMeTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				239CE63827479F2D003861E8 /* NearMeTask.xcdatamodel */,
+			);
+			currentVersion = 239CE63827479F2D003861E8 /* NearMeTask.xcdatamodel */;
+			path = NearMeTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 239CE62327479F2D003861E8 /* Project object */;
+}
